@@ -7,10 +7,8 @@
     <!-- Подключаем стили Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style_calc.css">
-    <script src="calc.js"></script>
-</head>
-<body>
-<script>
+    <script type="text/javascript" src="calc.js"></script>
+    <script>
 // Get all the keys from document
 var keys = document.querySelectorAll('#calculator span');
 var operators = ['+', '-', 'x', '÷'];
@@ -97,6 +95,8 @@ for(var i = 0; i < keys.length; i++) {
 	} 
 }
 </script>
+</head>
+<body>
 
 
     <div class="container-fluid">
@@ -109,19 +109,13 @@ for(var i = 0; i < keys.length; i++) {
             <main class="col-6 py-4">
                 <!-- Здесь ваш контент для body -->
                 <!-- <p>Основное содержание</p> -->
-                <table style="width: 100%;">
-				<tbody>
-				<tr>
-				<td><fxwidget-er inverse="false" amount="400" decimals="2" large="false" shadow="true" symbol="true" flag="true" changes="true" grouping="true" border="false" main-curr="TRY" sel-curr="TRY,RUB" background-color="#f0f8ff"></fxwidget-er><a href="https://currencyrate.today/">CurrencyRate</a><script async src="https://s.fx-w.io/widgets/exchange-rates/latest.js"></script></td>
-				<td><fxwidget-er inverse="false" amount="1" decimals="2" large="false" shadow="true" symbol="true" flag="true" changes="true" grouping="true" border="false" main-curr="TRY" sel-curr="TRY,RUB" background-color="#f0f8ff"></fxwidget-er><a href="https://currencyrate.today/">CurrencyRate</a><script async src="https://s.fx-w.io/widgets/exchange-rates/latest.js"></script></td>
-				</tr>
-				</tbody>
-				</table>
+ 				<script type="text/javascript">var w='100%';var h='423';var b='try';var a='400';var l='ru';var t='blue';var c='aud,cad,cny,eur,hkd,jpy,btc,chf,rub';var ty='1';var f='2';var ht='mconvert.net/';</script><a href="https://mconvert.net/" title="Currency Exchange Rates"><script src="//mconvert.net/currency_rates"></script></a><span style="margin-right: 10px; font-size: 11px; text-align: right; display: block; font-family: Helvetica Neue;"><a href="https://mconvert.net/" style="color: #337ab7; text-decoration: none; font-family: Helvetica Neue;"></a></span>
+
+                
                  <iframe src="https://oldubil-balance.ru" width="100%" height="700" frameborder="0" scrolling="auto"></iframe>
                  <br />
            		 <fxwidget-er inverse="false" amount="400" decimals="2" large="false" shadow="true" symbol="true" flag="true" changes="true" grouping="true" border="false" main-curr="TRY" sel-curr="TRY,RUB" background-color="#f0f8ff"></fxwidget-er><script async src="https://s.fx-w.io/widgets/exchange-rates/latest.js"></script>
 
-           		 <!-- Please do not edit this code Mconvert currency-rates-widget starts here --><script type="text/javascript">var w='100%';var h='423';var b='try';var a='400';var l='ru';var t='blue';var c='aud,cad,cny,eur,hkd,jpy,btc,chf,rub';var ty='1';var f='2';var ht='mconvert.net/';</script><a href="https://mconvert.net/" title="Currency Exchange Rates"><script src="//mconvert.net/currency_rates"></script></a><span style="margin-right: 10px; font-size: 11px; text-align: right; display: block; font-family: Helvetica Neue;"><a href="https://mconvert.net/" style="color: #337ab7; text-decoration: none; font-family: Helvetica Neue;"></a> by mconvert.net</span><!-- Mconvert currency rates widget ends here -->
 
            		 <div id="calculator">
 					<!-- Screen and clear key -->
@@ -150,11 +144,12 @@ for(var i = 0; i < keys.length; i++) {
 						<span class="operator">x</span>
 					</div>
 				</div>
-
 				<!-- PrefixFree -->
 				<script src="http://thecodeplayer.com/uploads/js/prefixfree-1.0.7.js" type="text/javascript" type="text/javascript"></script>
+
             </main>
         </div>
+
         <div class="row justify-content-center">
             <footer class="col-6 text-center py-4">
                 <!-- Здесь ваш контент для footer -->
