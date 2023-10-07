@@ -7,7 +7,7 @@
     "header header header" auto
     "right body left" 1fr
     "footer footer footer" auto
-    / 20% 2fr 20%;
+    / 15% 70% 15%;
   gap: 8px;
 }
 
