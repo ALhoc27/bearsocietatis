@@ -1,0 +1,18 @@
+.layout {
+  width: 1366px;
+  height: 768px;
+
+  display: grid;
+  grid:
+    "header header header" auto
+    "right body left" 1fr
+    "footer footer footer" auto
+    / 20% 2fr 20%;
+  gap: 8px;
+}
+
+.header { grid-area: header; }
+.right { grid-area: right; }
+.body { grid-area: body; }
+.left { grid-area: left; }
+.footer { grid-area: footer; }
